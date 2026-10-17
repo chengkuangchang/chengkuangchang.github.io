@@ -1,4 +1,5 @@
 /* Small personal overrides to the standard al-folio template. */
+:root{--global-theme-color:#00852b;--global-hover-color:#006a22;--global-code-bg-color:rgba(0,133,43,.05)}
 @font-face{font-family:Roboto;font-style:normal;font-weight:300;font-display:swap;src:url(roboto-300.ttf) format('truetype')}
 @font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:url(roboto-400.ttf) format('truetype')}
 body{font-family:Roboto,sans-serif;font-weight:300}
