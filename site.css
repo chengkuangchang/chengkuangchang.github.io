@@ -1,0 +1,20 @@
+/* Small personal overrides to the standard al-folio template. */
+@font-face{font-family:Roboto;font-style:normal;font-weight:300;font-display:swap;src:url(roboto-300.ttf) format('truetype')}
+@font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:url(roboto-400.ttf) format('truetype')}
+body{font-family:Roboto,sans-serif;font-weight:300}
+h1,h2,h3,h4,h5,h6,b,strong,th,.font-weight-bold,.title,.navbar .nav-item.active>.nav-link{font-weight:300!important}
+.publications ol.bibliography li .title{font-weight:400!important}
+.publications .badge{font-weight:400!important}
+.publications ol.bibliography li .author em{font-weight:300!important}
+.paper-title{color:inherit}
+.profile{max-width:170px}
+.profile img{width:100%;height:auto}
+.contribution-note{font-size:.9rem}
+.publications pre{white-space:pre-wrap;overflow-wrap:anywhere}
+.publications div.bibtex.hidden{display:none}
+.publications .links button{font-family:inherit;font-weight:300}
+html{scroll-padding-top:80px}
+.skip-link{position:fixed;top:-100px;left:12px;z-index:2000;background:white;padding:10px}.skip-link:focus{top:10px}
+a:focus-visible,button:focus-visible{outline:2px solid var(--global-theme-color);outline-offset:3px}
+@media(max-width:575px){.profile{max-width:128px;margin-left:0}.news th{white-space:nowrap}.news td{min-width:0}.publications .row{row-gap:8px}}
+@media print{#navbar,.skip-link,.social{display:none}body{padding:0!important}.container{max-width:none!important}.publications li{break-inside:avoid}}
