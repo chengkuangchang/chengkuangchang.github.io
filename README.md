@@ -1,6 +1,6 @@
 # Cheng-Kuang Chang — academic website
 
-This is a static edition of the standard [al-folio](https://github.com/alshedivat/al-folio) academic template. The default template structure and upstream compiled CSS are retained. Personal changes are the content, a smaller profile photo, regular/light text weights as requested, and removal of unused sample sections.
+This is a static edition of the standard [al-folio](https://github.com/alshedivat/al-folio) academic template. The default template structure and upstream compiled CSS are retained. Personal changes are the content, a smaller profile photo, green accents, lightweight text with the owner's name bold in publication author lists, and removal of unused sample sections.
 
 Intended address: https://chengkuangchang.github.io/
 Personal GitHub profile: https://github.com/penguinfish1688
