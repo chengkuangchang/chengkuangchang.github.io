@@ -18,6 +18,7 @@ Place every file in this folder at the root of the `chengkuangchang/chengkuangch
 - `state-inertia.bib` and `d2.bib`: downloadable arXiv citations.
 - `site.js`: accessible BibTeX show/hide controls.
 - `nav-toggle.js`: upstream al-folio mobile navigation.
+- `googlece0730b6bf45b8dd.html`: Google Search Console ownership verification. Keep this file published to retain verification.
 
 ## Provenance and licenses
 
